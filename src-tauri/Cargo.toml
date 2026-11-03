@@ -80,7 +80,7 @@ futures-util = "0.3"
 tower = "0.5"
 tower-http = { version = "0.6", features = ["cors"] }
 subtle = "2"
-rand = "0.8"
+rand = "0.10"
 hex = "0.4"
 # Pinned: `VectorIndex::exact_search` exists to work around 0.3.4's misfiled
 # reverse neighbour links, and a caret range could pull in a build whose
